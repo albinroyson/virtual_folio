@@ -1,0 +1,633 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}
+del {
+  text-decoration: line-through;
+}
+body {
+  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #000;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 500;
+}
+input,
+textarea,
+select {
+  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.thumb {
+  display: block;
+}
+.thumb img {
+  display: block;
+  width: 100%;
+}
+::marker {
+  font-weight: 700;
+}
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "GT-Eesti", Arial;
+  font-weight: 500;
+  color: #000;
+}
+.hidden {
+  display: none;
+}
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+::placeholder {
+  color: #9b9b9b;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #9b9b9b;
+}
+
+::-ms-input-placeholder {
+  color: #9b9b9b;
+}
+img {
+  display: block;
+  width: 100%;
+}
+#home {
+  padding-top: 2%;
+  background: url(../images/bg_image_1.jpg) no-repeat;
+  background-size: cover;
+}
+#home div.blur {
+  background: rgb(77 71 71 / 50%);
+}
+
+#home div.blur header {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(97 97 97 / 70%);
+  padding: 8px;
+  align-items: center;
+}
+#home header div.left {
+  margin-left: 117px;
+}
+
+#home header div.left h1 {
+}
+
+#home div.blur header div.left h1 a {
+}
+
+#home div.blur header div.left h1 a img {
+}
+
+#home div.blur header div.left a {
+}
+
+#home div.blur header a {
+  color: #fff;
+}
+
+#home div.blur header div.middle {
+  width: 40%;
+}
+
+#home div.blur header div.middle a {
+}
+
+#home div.blur header div.middle ul {
+  display: flex;
+  justify-content: space-between;
+  width: 73%;
+  margin: 0 auto;
+}
+
+#home div.blur header div.middle ul a {
+}
+
+#home div.blur header div.middle ul li {
+}
+
+#home div.blur header div.middle ul li a {
+}
+
+#home div.blur header div.right {
+  margin-right: 136px;
+}
+
+#home div.blur header div.right h6 {
+}
+
+#home div.blur header div.right h6 a {
+  align-items: center;
+  background: blue;
+  font-size: 19px;
+  padding: 15px;
+  border-radius: 50%;
+}
+#home div.blur section.spotlight {
+}
+#home div.blur section.spotlight section.wrapper div.content {
+  padding: 13% 0;
+}
+#home div.blur section.spotlight section.wrapper div.content div.content {
+}
+
+#home div.blur section.spotlight section.wrapper div.content h6 {
+  color: #fff;
+  text-align: center;
+  font-size: 27px;
+}
+
+#home div.blur section.spotlight section.wrapper div.content h1 {
+  color: #fff;
+  margin: 11px auto;
+  text-align: center;
+  font-size: 47px;
+}
+#home div.blur section.spotlight section.wrapper div.content h1 span {
+  color: blue;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 47px;
+}
+#home div.blur section.spotlight section.wrapper p {
+  color: blue;
+  text-align: center;
+  background: rgb(37 32 66 / 70%);
+  width: 21%;
+  padding: 14px;
+  border-radius: 39px;
+  margin: 0 auto;
+}
+#profile {
+  padding-top: 111px;
+}
+
+#profile section.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#profile section.wrapper div.left {
+  position: relative;
+  margin-left: 3%;
+}
+
+#profile section.wrapper div.left div.border {
+  border: 6px solid blue;
+  padding: 57% 46%;
+  width: 63%;
+  position: absolute;
+  bottom: 15%;
+  right: -7%;
+  z-index: 0;
+}
+
+#profile section.wrapper div.left div.img_container {
+  width: 95%;
+  position: relative;
+  z-index: 1;
+}
+
+#profile section.wrapper div.left div.img_container img {
+}
+
+#profile section.wrapper div.right {
+  width: 61%;
+}
+
+#profile section.wrapper div.right h1 {
+  font-size: 43px;
+}
+
+#profile section.wrapper div.right h3 {
+  color: blue;
+
+  margin: 11px 0;
+}
+
+#profile section.wrapper div.right p {
+  width: 78%;
+}
+
+#profile section.wrapper div.right ul {
+  margin: 13px 0;
+}
+#profile section.wrapper div.right ul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 9px;
+  margin: auto;
+  width: 1px;
+  height: 85%;
+  background-color: #cacdd6;
+  z-index: -1;
+}
+#profile section.wrapper div.right ul li {
+  margin: 13px 0;
+
+  position: relative;
+}
+#profile section.wrapper div.right ul li::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 4px;
+  left: -2px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #888;
+  border-color: blue;
+}
+#profile section.wrapper div.right ul li div.circle {
+}
+
+#profile section.wrapper div.right ul li p {
+  margin-left: 23px;
+}
+
+#profile section.wrapper div.right ul li p b {
+  font-weight: 600;
+}
+
+#profile section.wrapper a {
+  border: 2px solid blue;
+
+  width: 21%;
+  padding: 15px;
+  border-radius: 10px;
+}
+#skills {
+  padding-top: 8%;
+}
+#skills section.wrapper {
+}
+
+#skills section.wrapper h1 {
+  text-align: center;
+  font-size: 41px;
+}
+#skills div.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+#skills div.content div.left {
+  width: 48%;
+}
+#skills div.content div.left h5 {
+  width: 40%;
+  font-size: 28px;
+}
+
+#skills div.content div.left p {
+}
+
+#skills div.content div.left ul {
+}
+
+#skills div.content div.left ul li {
+  position: relative;
+}
+
+#skills div.content div.left ul li p {
+  margin: 4px 0;
+  font-weight: 600;
+}
+
+#skills div.left ul li div.border {
+  padding: 12px;
+  border: 2px solid blue;
+  border-radius: 30px;
+  position: relative;
+}
+
+#skills div.content div.left ul li div.javascript {
+  background: blue;
+  padding: 3px;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  position: absolute;
+  top: 61%;
+  right: 12%;
+  width: 87%;
+}
+#skills div.content div.left ul li div.javascript h6 {
+  text-align: center;
+}
+
+#skills div.content div.left ul li div.php {
+  background: blue;
+  padding: 3px;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  position: absolute;
+  top: 61%;
+  right: 23%;
+  width: 76%;
+}
+
+#skills div.content div.left ul li div.php h6 {
+}
+#skills div.content div.left ul li div.html {
+  background: blue;
+  padding: 3px;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  position: absolute;
+  top: 61%;
+  right: 1%;
+  width: 98%;
+}
+#skills div.content div.left ul li div.html h6 {
+}
+#skills div.content div.left ul li div.python {
+  background: blue;
+  padding: 3px;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  position: absolute;
+  top: 61%;
+  right: 8%;
+  width: 91%;
+}
+
+#skills div.content div.left ul li div.python h6 {
+  align-items: center;
+  margin: 0 auto;
+}
+
+#skills div.content div.right {
+  width: 47%;
+}
+#skills div.content div.right h5 {
+  width: 40%;
+  font-size: 28px;
+}
+
+#skills div.conten div.right p {
+}
+
+#skills div.content div.right ul {
+}
+
+#skills div.content div.right ul li {
+  position: relative;
+}
+
+#skills div.content div.right ul li p {
+  margin: 4px 0;
+  font-weight: 600;
+}
+
+#skills div.content div.right ul li div.border {
+  padding: 12px;
+  border: 2px solid blue;
+  border-radius: 30px;
+  position: relative;
+}
+
+#skills div.content div.right ul li div.javascript {
+  background: blue;
+  padding: 3px;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  position: absolute;
+  top: 61%;
+  right: 9%;
+  width: 90%;
+}
+#skills div.content div.right ul li div.javascript h6 {
+  text-align: center;
+}
+
+#skills div.content div.right ul li div.php {
+  background: blue;
+  padding: 3px;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  position: absolute;
+  top: 61%;
+  right: 4%;
+  width: 95%;
+}
+
+#skills div.content div.right ul li div.php h6 {
+}
+#skills div.content div.right ul li div.html {
+  background: blue;
+  padding: 3px;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  position: absolute;
+  top: 61%;
+  right: 1%;
+  width: 98%;
+}
+#skills div.content div.right ul li div.html h6 {
+}
+#skills div.content div.right ul li div.python {
+  background: blue;
+  padding: 3px;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  position: absolute;
+  top: 58%;
+  right: 8%;
+  width: 91%;
+}
+
+#skills div.content div.right ul li div.python h6 {
+  align-items: center;
+  margin: 0 auto;
+}
+#education {
+  padding-top: 10%;
+}
+
+#education section.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#education section.wrapper div.left {
+  width: 39%;
+}
+
+#education section.wrapper div.left h1 {
+  font-size: 34px;
+}
+
+#education section.wrapper div.left ul {
+  margin-left: 27px;
+}
+
+#education section.wrapper div.left ul li {
+  margin: 43px 0;
+  
+}
+#education section.wrapper div.left ul li::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 4px;
+  left: -2px;
+  border-radius:50%;
+  background-color: #fff;
+  border: 2px solid #888;
+  border-color: blue;
+}
+
+#education section.wrapper div.left ul li h2 {
+  font-size: 17px;
+  margin: 13px 0;
+  border-radius: 30px 0 60px 30px;
+  width: 150px;
+  padding: 9px 20px;
+  background-color: #747474;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 30px 0 60px 30px;
+}
+#education section.wrapper div.left ul li div.content {
+  margin-left: 5%;
+}
+
+#education section.wrapper div.left ul li div.content h4 {
+  font-size: 21px;
+}
+
+#education section.wrapper div.left ul li div.content h6 {
+  font-size: 17px;
+  font-weight: 600;
+  color: blue;
+}
+
+#education section.wrapper div.left ul li div.content p {
+  margin: 18px 0;
+}
+
+#education section.wrapper div.right {
+  width: 40%;
+}
+
+#education section.wrapper div.right h1 {
+  font-size: 34px;
+}
+
+#education section.wrapper div.right ul {
+}
+
+#education section.wrapper div.right ul li {
+  margin: 43px 0;
+}
+
+#education section.wrapper div.right ul li h2 {
+  font-size: 17px;
+  margin: 13px 0;
+  border-radius: 30px 0 60px 30px;
+  width: 150px;
+  padding: 9px 20px;
+  background-color: #747474;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 30px 0 60px 30px;
+}
+#education section.wrapper div.right ul li div.content {
+  margin-left: 5%;
+}
+
+#education section.wrapper div.right ul li div.content h4 {
+  font-size: 21px;
+}
+
+#education section.wrapper div.right ul li div.content h6 {
+  font-size: 17px;
+  font-weight: 600;
+  color: blue;
+}
+
+#education section.wrapper div.right ul li div.content p {
+  margin: 18px 0;
+}
